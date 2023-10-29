@@ -1,0 +1,29 @@
+html {
+    background-image: url('purple\ background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main-body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+.main-h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.main-h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
