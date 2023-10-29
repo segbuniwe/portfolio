@@ -17,7 +17,7 @@ function About() {
             </p>
             <div>
                 Resume:
-                Contact:
+                Contact: LinkedIn, Email, GitHub
             </div>
         </>
     );

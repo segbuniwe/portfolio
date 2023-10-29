@@ -13,12 +13,9 @@ function Nav() {
                     <li>
                         <NavLink to="/about">About</NavLink>
                     </li>
-                    {/* <li>
-                        <a onClick={() => scrollToSection('projects')}>Projects</a>
-                    </li>
                     <li>
-                        <a onClick={() => scrollToSection('contact')}>Contact</a>
-                    </li> */}
+                        <NavLink to="/projects">Projects</NavLink>
+                    </li>
                 </ul>
             </nav>
         </header>
