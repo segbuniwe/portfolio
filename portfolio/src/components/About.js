@@ -15,6 +15,10 @@ function About() {
             and multilingualism in spoken and technical forms,
             all while indulging in my love for theater and the arts.
             </p>
+            <div>
+                Resume:
+                Contact:
+            </div>
         </>
     );
 }
