@@ -1,9 +1,13 @@
 import React from "react";
+import image from "../styles/profile-pic.jpg";
+import resume from "../styles/resume.png";
+import { Link } from "react-router-dom";
 
 function About() {
     return (
         <>
             <h2>About</h2>
+            <img src={image} alt="profile"></img>
             <p>
             Hi! I'm Sophia Tony-Egbuniwe, a passionate
             full-stack web developer with a background in
@@ -16,9 +20,12 @@ function About() {
             all while indulging in my love for theater and the arts.
             </p>
             <div>
-                Resume:
-                Contact: LinkedIn, Email, GitHub
+                <p>Resume:
+                <img src={resume} alt="resume"></img>
+                Download resume: <Link to="https://drive.google.com/file/d/1TjgzlmzrhqYwWML9Z4h3Amb-jPZEFU8d/view?usp=sharing">HERE</Link>
+                </p>
             </div>
+            {/* Contact: LinkedIn, Email, GitHub */}
         </>
     );
 }
