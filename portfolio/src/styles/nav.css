@@ -1,0 +1,28 @@
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.my-nav-link {
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.my-nav-link:hover {
+    border-color: #007BFF;
+}
+
+.my-nav-link.active {
+    border-color: #007BFF;
+}

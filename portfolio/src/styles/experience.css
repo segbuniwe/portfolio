@@ -1,0 +1,28 @@
+.timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.timeline-content {
+    background: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+    background: #e0e0e0;
+}
+
+.timeline-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+}

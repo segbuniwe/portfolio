@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "../styles/nav.css";
 
 function Nav() {
 
@@ -8,13 +9,13 @@ function Nav() {
             <nav>
                 <ul>
                     <li>
-                        <NavLink to="/">Home</NavLink>
+                        <NavLink className="my-nav-link" to="/">Home</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/about">About</NavLink>
+                        <NavLink className="my-nav-link" to="/about">About</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/projects">Projects</NavLink>
+                        <NavLink className="my-nav-link" to="/projects">Projects</NavLink>
                     </li>
                 </ul>
             </nav>

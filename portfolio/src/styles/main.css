@@ -1,0 +1,46 @@
+.content-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.title-main {
+    font-size: 140px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.title-main {
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+
+.link-main {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    top: 20px;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.link-main:hover {
+    background-color: white;
+    color: black;
+}
+
+.blurb-main {
+    color: white;
+    font-weight: 600;
+}
+
+.margin-left {
+    margin-left: 50px;
+}
