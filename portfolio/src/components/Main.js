@@ -5,7 +5,6 @@ import "../styles/main.css";
 function Main() {
     return (
         <>
-            {/* links straight to project page and about */}
             <div className="content-main">
                 <h1 className="title-main">Sophia Tony-Egbuniwe</h1>
                 <h2 className="blurb-main">Full-Stack Software Engineer</h2>
