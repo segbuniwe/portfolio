@@ -22,3 +22,67 @@
 .about-color {
     color: white;
 }
+
+.linkedin-img {
+    width: 100px;
+    height: auto;
+}
+
+.github-img {
+    width: 60px;
+    height: auto;
+}
+
+.gmail-img {
+    width: 70px;
+    height: auto;
+}
+
+.contact-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-color {
+    color: #007BFF;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contact-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-container li {
+    margin-bottom: 10px;
+    display: inline-block;
+    margin: 5px;
+    padding: 50px 55px;
+    align-items: center;
+}
+
+.email-link {
+    color: #333;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+.link-img {
+    margin-right: 5px;
+}
+
+.resume-link {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resume-link:hover {
+    text-decoration: underline;
+}

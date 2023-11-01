@@ -4,6 +4,9 @@ import resume from "../styles/resume.png";
 import { Link } from "react-router-dom";
 import Experience from "./Experience";
 import "../styles/about.css";
+import linkedin from "../styles/linkedin.webp";
+import github from "../styles/github.png";
+import gmail from "../styles/gmail.png";
 
 function About() {
     return (
@@ -32,20 +35,26 @@ function About() {
                 <Experience />
             </div>
 
-            <div>
-                <h3 className="about-color">Contact</h3>
+            <div className="contact-container">
+                <h3 className="contact-color">Contact</h3>
                 <ul>
                     <li>
-                        Email: s.tonyegbuniwe@gmail.com
+                        <Link className="email-link" to="mailto:s.tonyegbuniwe@gmail.com">
+                            <img className="gmail-img" src={gmail} alt="Gmail" />
+                        </Link>
                     </li>
                     <li>
-                        <Link to="https://www.linkedin.com/in/sophia-tony-egbuniwe/">LinkedIn</Link>
+                        <Link to="https://www.linkedin.com/in/sophia-tony-egbuniwe/">
+                            <img className="linkedin-img link-img" src={linkedin} alt="LinkedIn" />
+                        </Link>
                     </li>
                     <li>
-                        <Link to="https://www.github.com/segbuniwe">GitHub</Link>
+                        <Link to="https://www.github.com/segbuniwe">
+                            <img className="github-img link-img" src={github} alt="GitHub" />
+                        </Link>
                     </li>
                     <li>
-                        View/Download resume: <Link to="https://drive.google.com/file/d/1TjgzlmzrhqYwWML9Z4h3Amb-jPZEFU8d/view?usp=sharing">HERE</Link>
+                        View/Download resume: <Link className="resume-link" to="https://drive.google.com/file/d/1TjgzlmzrhqYwWML9Z4h3Amb-jPZEFU8d/view?usp=sharing">HERE</Link>
                     </li>
                 </ul>
             </div>
