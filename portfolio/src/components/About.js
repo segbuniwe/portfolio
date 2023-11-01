@@ -7,18 +7,20 @@ import "../styles/about.css";
 function About() {
     return (
         <>
-            <h2 className="about-color">About</h2>
+            <h1 className="about-color">About</h1>
             <div className="about-container">
                 <div className="about-content">
                     <p>
                         Hi! I'm Sophia Tony-Egbuniwe, a passionate
                         full-stack web developer with a background in
-                        medical studies. I specialize in JavaScript,
-                        React, HTML5, CSS, Python, SQL (Postgres), and
-                        NoSQL (MongoDB), using tools like Docker, Django,
+                        medical studies. I specialize in full-stack software/web
+                        development using JavaScript and Python primarily. I have
+                        experience utilizng React, HTML, CSS, Python, JavaScript,
+                        SQL (Postgres), and NoSQL (MongoDB), also tools like Docker,
                         Visual Studio Code, and Git for seamless development.
-                        I'm committed to continuous learning, problem-solving,
-                        and multilingualism in spoken and technical forms,
+                        I am committed to continuous learning and problem-solving,
+                        always trying to pick up new skills and code each day. As a
+                        side interest, I enjoy multilingualism in spoken and technical forms,
                         all while indulging in my love for theater and the arts.
                     </p>
                     <p>
