@@ -17,6 +17,9 @@ function Nav() {
                     <li>
                         <NavLink className="my-nav-link" to="/projects">Projects</NavLink>
                     </li>
+                    <li>
+                        <NavLink className="my-nav-link" to="/skills">Skills</NavLink>
+                    </li>
                 </ul>
             </nav>
         </header>

@@ -1,0 +1,36 @@
+.skills-section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.skill-bubbles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-bubble {
+    background-color: violet;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.skill-title {
+    color: white;
+}
+
+/* .skill-bubble:nth-child(odd) {
+    background-color: #007BFF;
+    color: white;
+}
+
+.skill-bubble:nth-child(even) {
+    background-color: white;
+    color: darkblue;
+} */
