@@ -23,6 +23,7 @@ import img23 from "../styles/recipehunt/img23.png";
 import img24 from "../styles/recipehunt/img24.png";
 import img25 from "../styles/recipehunt/img25.png";
 import img26 from "../styles/recipehunt/img26.png";
+import { Link } from "react-router-dom";
 
 function RecipeHunt() {
     return (
@@ -140,6 +141,40 @@ function RecipeHunt() {
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
+            </div>
+            <div>
+                <h3>Contributions:</h3>
+                <ul>
+                    <li>
+                        Ideated, designed, and developed a full-stack application for users to
+                        match a list of personalized ingredients with a search list of recipes.
+                    </li>
+                    <li>
+                        Transmitted data between separate React components using the Redux Toolkit to
+                        control access based on user account status.
+                    </li>
+                    <li>
+                        Enabled the app to compare the user's ingredients list with a third-party API’s
+                        ingredients, utilizing JavaScript, in order to only display recipes that contained
+                        the user's ingredients after the recipe list was sorted.
+                    </li>
+                    <li>
+                        Created a "Surprise Me" feature using React and FastAPI to generate randomized recipe
+                        recommendations with a simple button click, leading to increased user exploration and
+                        heightened engagement.
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Links:</h3>
+                <ul>
+                    <li>
+                        <Link to="https://github.com/segbuniwe/recipehunt">GitHub Repo</Link>
+                    </li>
+                    <li>
+                        <Link to="https://recipehunt.gitlab.io/module3-project-gamma/">Visit Website</Link>
+                    </li>
+                </ul>
             </div>
         </>
     );

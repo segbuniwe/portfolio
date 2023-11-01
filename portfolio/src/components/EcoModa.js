@@ -1,6 +1,7 @@
 import img1 from "../styles/ecomoda/ecomoda.png";
 import video1 from "../styles/ecomoda/demo.mp4";
 import video2 from "../styles/ecomoda/chat-demo.mp4";
+import { Link } from "react-router-dom";
 
 function EcoModa() {
     return (
@@ -34,6 +35,47 @@ function EcoModa() {
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
+            </div>
+            <div>
+                <h3>Contributions:</h3>
+                <ul>
+                    <li>
+                        Coded clothing models and routes (GET, POST, DELETE, PUT) via
+                        Express.js to build an innovative web application that allows
+                        users to give away or trade clothing items, increasing sustainability
+                        in fashion.
+                    </li>
+                    <li>
+                        Incorporated the third-party, Passage, through a backend Express.js and
+                        a frontend React to have passwordless authentication via passkeys.
+                    </li>
+                    <li>
+                        Debugged team’s AI chat code to allow for integration with Express.js server
+                        and React frontend, creating a dynamic feature on the web app.
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Links:</h3>
+                <ul>
+                    <li>
+                        <Link to="https://github.com/segbuniwe/ecomoda">GitHub Repo</Link>
+                    </li>
+                    <li>
+                        <Link to="https://main.d3u3eipz2iqdk9.amplifyapp.com/">Visit Website</Link>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Awards & Honors:</h3>
+                <ul>
+                    <li>
+                        Women Who Code Hackathon For Social Good 2023 Top 20 Project
+                    </li>
+                    <li>
+                        Women Who Code Hackathon For Social Good 2023 Finalist
+                    </li>
+                </ul>
             </div>
         </>
     );

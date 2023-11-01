@@ -20,10 +20,10 @@ function About() {
             all while indulging in my love for theater and the arts.
             </p>
             <div>
-                <p>Resume:
-                <img src={resume} alt="resume"></img>
+                {/* <p>Resume: */}
+                {/* <img src={resume} alt="resume"></img> */}
                 Download resume: <Link to="https://drive.google.com/file/d/1TjgzlmzrhqYwWML9Z4h3Amb-jPZEFU8d/view?usp=sharing">HERE</Link>
-                </p>
+                {/* </p> */}
             </div>
             {/* Contact: LinkedIn, Email, GitHub */}
         </>
