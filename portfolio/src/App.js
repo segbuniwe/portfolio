@@ -4,6 +4,7 @@ import Main from "./components/Main";
 import About from "./components/About";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/projects" element={<Projects />}></Route>
         </Routes>
+        <Footer />
         </div>
       </BrowserRouter>
     </>

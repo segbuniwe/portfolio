@@ -1,0 +1,41 @@
+.style {
+    background-color: rgb(85, 10, 117);
+    border-top: 1px solid transparent;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
+
+.phantom {
+    display: block;
+    padding: 15px;
+    height: 50px;
+    width: 100%;
+}
+
+.footer-link-main {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    top: 1px;
+    font-size: 15px;
+    border: 1px solid #fff;
+    padding: 1px 10px;
+    border-radius: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.footer-link-main:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer-margin-left {
+    margin-left: 50px;
+}
