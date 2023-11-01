@@ -6,18 +6,14 @@ import RouteAuto from "./RouteAuto";
 import routeauto from "../styles/routeauto.png";
 import ProjectTracker from "./ProjectTracker";
 import projectracker from "../styles/projectracker.png";
+import "../styles/projects.css";
 
 function Projects() {
     return (
         <>
-            {/* <p>
-                Card: name, tech stacks, image;
-                click on name/see more to open up modal for more info: links
-                to webpage, github, things i did for projects, images
-            </p> */}
-
             {/* EcoModa */}
-            <div className="card-search mb-3 shadow p-3 d-inline-block">
+            <div className="card-search mb-3 shadow-lg p-3 d-inline-block">
+                <div className="card-header project-main">EcoModa</div>
                 <div className="card-img-container">
                     <img
                         src={ecomoda}
@@ -26,14 +22,14 @@ function Projects() {
                     />
                 </div>
                 <div>
-                    <p>
+                    <p className="project-color">
                         Tech Stacks: Node.js, Express.js, MongoDB (Mongoose),
                         React, JavaScript, CSS, Tailwind, Docker,
                         Amplify (AWS), Git
                     </p>
                 </div>
                 <button
-                    className="btn btn-sm btn-primary mt-3"
+                    className="btn btn-sm mt-3 project-btn"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                 >
@@ -69,7 +65,8 @@ function Projects() {
             </div>
 
             {/* RecipeHunt */}
-            <div className="card-search mb-3 shadow p-3 d-inline-block">
+            <div className="card-search mb-3 shadow-lg p-3 d-inline-block">
+            <div className="card-header project-main">RecipeHunt</div>
                 <div className="card-img-container">
                     <img
                         src={recipehunt}
@@ -78,14 +75,14 @@ function Projects() {
                     />
                 </div>
                 <div>
-                    <p>
+                    <p className="project-color">
                         Tech Stacks: FastAPI, Python, React,
                         Redux Toolkit, JavaScript, Bootstrap,
                         MongoDB, Docker, Git
                     </p>
                 </div>
                 <button
-                    className="btn btn-sm btn-primary mt-3"
+                    className="btn btn-sm mt-3 project-btn"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal1"
                 >
@@ -121,7 +118,8 @@ function Projects() {
             </div>
 
             {/* Route Auto */}
-            <div className="card-search mb-3 shadow p-3 d-inline-block">
+            <div className="card-search mb-3 shadow-lg p-3 d-inline-block">
+            <div className="card-header project-main">Route Auto</div>
                 <div className="card-img-container">
                     <img
                         src={routeauto}
@@ -130,14 +128,14 @@ function Projects() {
                     />
                 </div>
                 <div>
-                    <p>
+                    <p className="project-color">
                         Tech Stacks: Django, Python, Bootstrap,
                         PostgreSQL (Postgres), JavaScript, React, Docker,
                         Git
                     </p>
                 </div>
                 <button
-                    className="btn btn-sm btn-primary mt-3"
+                    className="btn btn-sm mt-3 project-btn"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal2"
                 >
@@ -173,7 +171,8 @@ function Projects() {
             </div>
 
             {/* Project & task tracker */}
-            <div className="card-search mb-3 shadow p-3 d-inline-block">
+            <div className="card-search mb-3 shadow-lg p-3 d-inline-block">
+            <div className="card-header project-main">Project & Task Tracker</div>
                 <div className="card-img-container">
                     <img
                         src={projectracker}
@@ -182,12 +181,12 @@ function Projects() {
                     />
                 </div>
                 <div>
-                    <p>
+                    <p className="project-color">
                         Tech Stacks: Django, Python, HTML, CSS, Git
                     </p>
                 </div>
                 <button
-                    className="btn btn-sm btn-primary mt-3"
+                    className="btn btn-sm mt-3 project-btn"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal3"
                 >
