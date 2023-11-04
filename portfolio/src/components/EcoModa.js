@@ -64,6 +64,9 @@ function EcoModa() {
                     <li>
                         <Link to="https://main.d3u3eipz2iqdk9.amplifyapp.com/">Visit Website</Link>
                     </li>
+                    <li>
+                        <Link to="https://youtu.be/zzF1tvBs3_Y">Demo Video</Link>
+                    </li>
                 </ul>
             </div>
             <div>
